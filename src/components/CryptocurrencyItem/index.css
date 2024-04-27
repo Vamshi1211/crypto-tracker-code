@@ -1,0 +1,55 @@
+/* Write your CSS code here */
+.list-item-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.logo-title-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+@media screen and (min-width: 768px) {
+  .logo-title-container {
+    margin: 10px;
+    margin-left: 40px;
+  }
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.logo-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.list-item-value-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+}
+@media screen and (min-width: 768px) {
+  .list-item-value-container {
+    width: 35%;
+  }
+}
+
+.item-value {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin: 10px;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .item-value {
+    margin: 20px;
+    font-size: 14px;
+  }
+}
